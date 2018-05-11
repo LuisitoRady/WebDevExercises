@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: underline;
+}
+
+/* Empieza sección del header */
+/********************************************/
+header {
+    background-image: url(../img/women-in-technology-header.jpg);
+    background-size: cover;
+    height: 37vw;
+}
+
+.divider {
+    width: 100%;
+    height: 20%;
+    margin-top: 18.4% 
+}
+
+.logo {
+    margin: 1vw;
+    height: 25%;
+    width: 45%;
+}
+/* Termina la sección del header */
+/********************************************/
+
+
+/* Inicia sección de About */
+/********************************************/
+.row {
+   /*background-color: red; */
+    width: 100%;
+    height: 100%;
+    margin-top: 5vw;
+    margin-left: .02vw;
+}
+
+.about {
+    margin: -5vw 10vw 0vw 10vw;
+    width: 10%;
+    height: 100%;
+}
+
+#about-title {
+    margin-left: 1vw;
+    font-size: 5vw;
+    text-decoration: underline
+}
+
+.info-col {
+    text-align: justify;
+    margin: 4vw 0vw 0vw 4vw;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+}
+
+.btn {
+    background-color: palevioletred;
+    border-radius: 1vw;
+    color: white;
+}
+
+.btn-learn-more {
+    margin: 2vw;
+    width: 20%;
+    height: 15%;
+    font-size: 80%;
+}
+
+.btn-learn-more:hover {
+    background-color: #b5607c;   
+}
+
+.btn-learn-more:active {
+    background-color: rgb(128, 0, 128);
+}
+
+.second-divider {
+    width: 100%;
+    height: 10vw;
+}
+/* Termina sección de About */
+/********************************************/
+
+
+/* Inicia sección de Locations */
+/********************************************/
+.our-locations-section {
+    background-color: rgb(255, 192, 203, 0.25);
+    margin-top: -10vw;
+    padding-top: 5vw;
+}
+
+.row-places {
+    width: 100%;
+    height: 100%;
+}
+
+.title-places {
+    width: 1%;
+    height: 100%;
+    margin: 0vw 0vw 0vw 50vw;
+    -webkit-transform:rotate(90deg);
+}
+
+#usa {
+    color: #5d3284;
+    font-size: 3vw;
+    padding-left: 1vw;
+}
+
+.img-place {
+    margin-bottom: 5%;
+    width: 80%;
+    height: 100%;
+}
+
+.img-place:hover {
+    width: 85%;
+    height: 105%;
+}
+
+.img-container {
+    margin-top: 3.5vw;
+    display: none;
+}
+
+#expandedImg {
+    width: 100%;
+    height: 100%;
+}
+
+#imgtext {
+    text-align: top-center;
+    color: #5d3284;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.closebtn {
+    position: absolute;
+    margin-left: 2vw;
+    color: white;
+    font-size: 3vw;
+    cursor: pointer;
+}
+/* Termina sección de Locations */
+/********************************************/
+
+
+/* Inicio sección de clases próximas */
+/********************************************/
+.upcoming-classes-section {
+    margin-top: -4vw;
+}
+
+table {
+    margin-top: 2vw;
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.classes th {
+    background-color: black;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+}
+
+.col-table {
+    border-right: 2px solid pink;
+}
+
+/* Termina sección de clases próximas */
+/********************************************/
+
+
+/* Inicia sección de Registro */
+/********************************************/
+.col-sign-up {
+    text-align: center;
+}
+
+.btn-register {
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1vw;
+    margin: 5vw 0vw 0vw 0vw;
+    width: 50%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+label {
+    float:left;
+    margin: 0vw 0vw 0vw 2vw;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 95%;
+    padding: 10px 20px;
+    margin: 0vw 0vw 1vw 1vw;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+select {
+    float:left;
+    margin: 0vw 0vw 0vw 2vw;
+}
+
+input[type=radio] {
+    margin-top: .5vw;
+    margin-left: 2vw;
+    float: left;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+}
+
+.user-email-container {
+    margin-top: 2vw;
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 70%; 
+}
+
+/* X del modal */
+.close {
+    padding: 1vw;
+    position: absolute;
+    right: 25px;
+    top: -10px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.cancel {
+    border-radius: 5px;
+    padding: 1vw;
+    background-color: red;
+    color: white;
+}
+
+.cancel:hover,
+.cancel:focus {
+    background-color: #c91616;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-register-modal {
+    border-radius: 5px;
+    margin-bottom: 1vw;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1vw;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+/* Termina sección de Registro */
+/********************************************/
+
+
+/* Inicia sección del footer */
+/********************************************/
+.row-footer {
+    padding-top: 30px;
+    background-color: rgba(0,0,1,0.01);
+}
+
+.footer-container { 
+    display: inline-block;
+    margin: -2vw 0vw 1vw 2vw;
+    width: 100%;
+}
+/* Termina sección del footer */
+/********************************************/
